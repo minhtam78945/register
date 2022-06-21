@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div style ="text-align: center;">
+        <h1>BÀI KIỂM TRA CHƯƠNG 2</h1>
+        <br><strong>Môn học:</strong>&nbsp;<em>Ứng dụng web</em>
+        <br><strong>Mã số sinh viên:</strong>&nbsp;<em>12355</em>
+        <br><strong>Họ và tên:</strong>&nbsp;<em>Nguyễn Văn A</em></p>
+        <hr>
+    </div>
+    <p align = "center">
+        <a href="bai10-index.html">Trang chủ&nbsp;</a>
+        <a href="bt10-content.html">Nội dung môn học</a>
+        <a href="bt10-register.html">Đăng ký</a>
+    </p>
+    <h1 align = "center">ĐĂNG KÝ THAM GIA DIỄN ĐÀN</h1>
+    <table align = "center" bgcolor = "yellow" border = "1">
+        <tbody>
+            <tr>
+                <td>Tên đăng nhập:</td>
+                <td><input type = "text" value = "Nhập tên đăng nhập" required pattern="^\(\d{3}\)\d{3}-\d{4}$" ></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type = "password" required pattern="^\(\d{3}\)\d{3}-\d{4}$"></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <form>
+                    <input type="radio" name = "sex" checked>Nam&nbsp;
+                    <input type = "radio" name = "sex">Nữ
+                </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Ngôn ngữ lập trình yêu thích nhất</td>
+                <td><select name="màu">
+                    <option>C++</option>
+                    <option>C#</option>
+                    <option>PHP</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Quy định khi tham gia diễn đàn</td>
+                <td><textarea rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Đăng ký</button>
+                    <button type="reset">Huỷ</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
